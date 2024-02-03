@@ -105,10 +105,8 @@ Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
 - bu durumda sağ alt düğümün silenecek düğümün yerine geçilir.
 - sağ alt düğümün silenecek düğümün yerine geçtiğinde onun altındaki düğümleri koruyarak bağlı kalacak ve böylece ağaç yapısında herhangi bir kesilme olmayacaktır.
 
-`ağaç bu şekilde olacak`
-
 <div align="center">
-    <h3>Binary Ağaç</h3>
+    <h3>Binary Ağaç 4 değeri olan düğüm silindikten sonra</h3>
     <img src="https://github.com/yasir723/node-ekle/assets/111686779/a7b5d8d3-7fde-4d4d-818a-3689df53d17f" width="600">
 </div>
 
