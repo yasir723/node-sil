@@ -19,8 +19,9 @@ class tree
 - `right`: Düğüme bağlı olan sağ alt düğümü belirtir.
 - `left`: Düğüme bağlı olan sol alt düğümü belirtir.
 
-Bu C# metodunun amacı, verilen bir değeri ağaçtan silmektir. Ağaç içinde gezinerek belirli bir değeri bulur ve bu değeri ağaçtan kaldırır. Metot, ağacın kök düğümü ve silinecek değeri parametre olarak alır.
+
 ## `nodeSil` Metodu
+Bu C# metodunun amacı, verilen bir değeri ağaçtan silmektir. Ağaç içinde gezinerek belirli bir değeri bulur ve bu değeri ağaçtan kaldırır. Metot, ağacın kök düğümü ve silinecek değeri parametre olarak alır.
 ```csharp
 static tree nodeSil(tree root, int value)
 {
