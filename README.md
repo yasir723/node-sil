@@ -86,4 +86,14 @@ Metot, güncellenmiş ağaç yapısını temsil eden kök düğümü döndürür
 
 5. Her adımda güncellenmiş ağaç yapısı, son olarak kök düğümü geri döndürülür.
 
+## örnekler
+
+Aşağıdaki gibi bir binary ağaç düşünelim:
+
+<div align="center">
+    <h3>Binary Ağaç</h3>
+    <img src="https://github.com/yasir723/node-ekle/assets/111686779/11d4aac8-b0d4-4762-b028-17d29fada8d1" width="600">
+</div>
+
+
 
