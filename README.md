@@ -88,7 +88,6 @@ Metot, güncellenmiş ağaç yapısını temsil eden kök düğümü döndürür
 
 ## örnekler
 
-Aşağıdaki gibi bir binary ağaç düşünelim:
 
 <div align="center">
     <h3>Binary Ağaç</h3>
