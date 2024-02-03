@@ -84,6 +84,6 @@ Metot, güncellenmiş ağaç yapısını temsil eden kök düğümü döndürür
    2. Eğer sağ alt ağaç boşsa, sol alt ağacı geri döner.
    3. Eğer her iki alt ağaç da doluysa, sağ alt ağacın en küçük düğümü bulunur ve kök düğümün değeri bu düğümle değiştirilir. Ardından, sağ alt ağaç üzerinde tekrar `nodeSil` metodu çağrılır ki taşıdığımız düğüm kaldırılsın.
 
-5. Her adımda güncellenmiş ağaç yapısı, son olarak kök düğümü geri döndürülür.
+- Her adımda güncellenmiş ağaç yapısı, son olarak kök düğümü geri döndürülür.
 
 
