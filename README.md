@@ -1,6 +1,6 @@
 # Node Silme
 
-$${\color{equa}Equa}$$
+$${\color{aqua}Aqua}$$
 
 Bu C# sınıfı, binary ağaç veri yapısını oluşturmak için kullanılır. `tree` adlı bir sınıf içerir ve `nodeSil` metodunu kullanarak ağaçtan bir düğüm silmeyi sağlar.
 
