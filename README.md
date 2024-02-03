@@ -95,37 +95,17 @@ Metot, güncellenmiş ağaç yapısını temsil eden kök düğümü döndürür
 
 Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
 ##### Soru 1: 4 değeri olan düğümü silme işlemi gerçekleştirin
-bu durum yukarıdaki işleyişin 4. maddesinde ilk durum olarak tanımlanır (sol alt ağaç boşsa, sağ alt ağacı geri döner) ve silme işlemi yaptıktan sonra sağ alt ağacın düğümü sileceğimiz düğümün yerine gelecektir 
+* İşleyiş:
+- ilk olarak 4 değer 9 ile karışlaştırdı ve daha küçük oladuğu için sola gidilir.
+- 4 değer bulana kadar arama işlemi devam etmiştir.
+- 4 değer düğümü bulduğunda demek node.value = value şartını sağlamış ve silme işlemi gerçekleştirilir.
+- silenecek düğümün yerine hangi düğüm geçeceği karar vermek için alt ağaçlarını kontrol etme işlemi yapılır.
+- Silinecek düğümün yerine geçecek düğümü belirlemek için, alt ağaçlar kontrol edilir.
+- sol alt ağaç boş olduğunu ve sağ alt ağaç boş olmadığını tespit edilir (yukarıdaki anlatıldığı işleyişin 4. maddesindeki ilk durumdur).
+- bu durumda sağ alt düğümün silenecek düğümün yerine geçilir.
+- sağ alt düğümün silenecek düğümün yerine geçtiğinde onun altındaki düğümleri koruyarak bağlı kalacak ve böylece ağaç yapısında herhangi bir kesilme olmayacaktır.
 
 
-### Soru 1: 4 Değeri Olan Düğümü Silme İşlemi
 
-Bu durum, ağacın 4. maddesinde belirtildiği gibi ele alınacaktır: "Eğer aranan değer, kök düğümün değerine eşitse, bu durumda silme işlemi gerçekleştirilir."
-
-- İlk olarak, ağaçtaki düğümler şu şekildedir:
-
-        9
-       / \
-      7   12
-     / \  / \
-    6   8 11 14
-   / \    / / \
-  3   4  10 13 15
-       \
-        5
-
-- Silme işlemi için 4 değerine sahip düğümü bulmalıyız. 4, 7 düğümünün sağ alt ağacında yer alır.
-- Sağ alt ağacın sol altında herhangi bir düğüm bulunmadığı için (sol alt ağaç boşsa), 4 değeri olan düğümü sileceğiz.
-- Silme işlemi sonrasında sağ alt ağaç şu hale gelecektir:
-
-        9
-       / \
-      7   12
-     / \  / \
-    6   8 11 14
-   / \    / / \
-  3   5  10 13 15
-
-Bu şekilde, 4 değerine sahip düğüm başarıyla silinmiş olacaktır.
 
 
