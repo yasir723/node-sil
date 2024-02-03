@@ -1,7 +1,5 @@
 # Node Silme
 
-$${\color{aqua}Aqua}$$
-
 Bu C# sınıfı, binary ağaç veri yapısını oluşturmak için kullanılır. `tree` adlı bir sınıf içerir ve `nodeSil` metodunu kullanarak ağaçtan bir düğüm silmeyi sağlar.
 
 ## `tree` Sınıfı
@@ -96,7 +94,8 @@ Metot, güncellenmiş ağaç yapısını temsil eden kök düğümü döndürür
 </div>
 
 Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
-### `Soru 1: 4 değeri olan düğümü silme işlemi gerçekleştirin`
+$${\color{aqua}Soru 1: 4 değeri olan düğümü silme işlemi gerçekleştirin}$$
+
 #### İşleyiş
 - ilk olarak 4 değer 9 ile karışlaştırdı ve daha küçük oladuğu için sola gidilir.
 - 4 değer bulana kadar arama işlemi devam etmiştir.
