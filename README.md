@@ -95,7 +95,7 @@ Metot, güncellenmiş ağaç yapısını temsil eden kök düğümü döndürür
 
 Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
 ### `Soru 1: 4 değeri olan düğümü silme işlemi gerçekleştirin`
-`İşleyiş`
+####İşleyiş
 - ilk olarak 4 değer 9 ile karışlaştırdı ve daha küçük oladuğu için sola gidilir.
 - 4 değer bulana kadar arama işlemi devam etmiştir.
 - 4 değer düğümü bulduğunda demek `node.value = value` şartını sağlamış ve silme işlemi gerçekleştirilir.
