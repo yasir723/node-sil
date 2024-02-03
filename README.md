@@ -73,16 +73,16 @@ Metot, güncellenmiş ağaç yapısını temsil eden kök düğümü döndürür
 
 ### İşleyiş:
 
-1. Eğer ağacın kökü null ise, ağaç zaten boş demektir, dolayısıyla herhangi bir işlem yapmadan null döner.
+- Eğer ağacın kökü null ise, ağaç zaten boş demektir, dolayısıyla herhangi bir işlem yapmadan null döner.
 
-2. Eğer aranan değer, kök düğümün değerinden küçükse, sağ ağaç üzerinde devam eder ve `nodeSil` metodu rekürsif olarak çağrılır.
+- Eğer aranan değer, kök düğümün değerinden küçükse, sağ ağaç üzerinde devam eder ve `nodeSil` metodu rekürsif olarak çağrılır.
 
-3. Eğer aranan değer, kök düğümün değerinden büyükse, sol ağaç üzerinde devam eder ve yine `nodeSil` metodu rekürsif olarak çağrılır.
+- Eğer aranan değer, kök düğümün değerinden büyükse, sol ağaç üzerinde devam eder ve yine `nodeSil` metodu rekürsif olarak çağrılır.
 
-4. Eğer aranan değer, kök düğümün değerine eşitse, bu durumda silme işlemi gerçekleştirilir:
+- Eğer aranan değer, kök düğümün değerine eşitse, bu durumda silme işlemi gerçekleştirilir, bu işlemde 3 tane durum olacak:
    1. Eğer sol alt ağaç boşsa, sağ alt ağacı geri döner.
    2. Eğer sağ alt ağaç boşsa, sol alt ağacı geri döner.
-   3. Eğer her iki alt ağaç da doluysa, sağ alt ağacın en küçük düğümü bulunur ve kök düğümün değeri bu düğümle değiştirilir. Ardından, sağ alt ağaç üzerinde tekrar `nodeSil` metodu çağrılır.
+   3. Eğer her iki alt ağaç da doluysa, sağ alt ağacın en küçük düğümü bulunur ve kök düğümün değeri bu düğümle değiştirilir. Ardından, sağ alt ağaç üzerinde tekrar `nodeSil` metodu çağrılır ki taşıdığımız düğüm kaldırılsın.
 
 5. Her adımda güncellenmiş ağaç yapısı, son olarak kök düğümü geri döndürülür.
 
