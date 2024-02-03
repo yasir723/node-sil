@@ -93,7 +93,7 @@ Metot, güncellenmiş ağaç yapısını temsil eden kök düğümü döndürür
 </div>
 
 Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
-## $\color{aqua}{Örnek 1: 4 \space değeri \space olan \space düğümü \space silme \space işlemi \space gerçekleştirin}$
+## $\color{aqua}{Örnek : 4 \space değeri \space olan \space düğümü \space silme \space işlemi \space gerçekleştirin}$
 
 #### İşleyiş
 - ilk olarak 4 değer 9 ile karışlaştırdı ve daha küçük oladuğu için sola gidilir.
