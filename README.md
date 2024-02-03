@@ -98,7 +98,7 @@ Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
 #### İşleyiş
 - ilk olarak 4 değer 9 ile karışlaştırdı ve daha küçük oladuğu için sola gidilir.
 - 4 değer bulana kadar arama işlemi devam etmiştir.
-- 4 değer düğümü bulduğunda demek `node.value = value` şartını sağlamış ve silme işlemi gerçekleştirilir.
+- 4 değer düğümü bulduğunda demek `node.value == value` şartını sağlamış ve silme işlemi gerçekleştirilir.
 - silenecek düğümün yerine hangi düğüm geçeceği karar vermek için alt ağaçlarını kontrol etme işlemi yapılır.
 - Silinecek düğümün yerine geçecek düğümü belirlemek için, alt ağaçlar kontrol edilir.
 - sol alt ağaç boş olduğunu ve sağ alt ağaç boş olmadığını tespit edilir (yukarıdaki anlatıldığı işleyişin 4. maddesindeki ilk durumdur).
