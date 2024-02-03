@@ -86,13 +86,46 @@ Metot, güncellenmiş ağaç yapısını temsil eden kök düğümü döndürür
 
 5. Her adımda güncellenmiş ağaç yapısı, son olarak kök düğümü geri döndürülür.
 
-## örnekler
-
+## Örnekler
 
 <div align="center">
     <h3>Binary Ağaç</h3>
     <img src="https://github.com/yasir723/node-ekle/assets/111686779/11d4aac8-b0d4-4762-b028-17d29fada8d1" width="600">
 </div>
 
+Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
+##### Soru 1: 4 değeri olan düğümü silme işlemi gerçekleştirin
+bu durum yukarıdaki işleyişin 4. maddesinde ilk durum olarak tanımlanır (sol alt ağaç boşsa, sağ alt ağacı geri döner) ve silme işlemi yaptıktan sonra sağ alt ağacın düğümü sileceğimiz düğümün yerine gelecektir 
+
+
+### Soru 1: 4 Değeri Olan Düğümü Silme İşlemi
+
+Bu durum, ağacın 4. maddesinde belirtildiği gibi ele alınacaktır: "Eğer aranan değer, kök düğümün değerine eşitse, bu durumda silme işlemi gerçekleştirilir."
+
+- İlk olarak, ağaçtaki düğümler şu şekildedir:
+
+        9
+       / \
+      7   12
+     / \  / \
+    6   8 11 14
+   / \    / / \
+  3   4  10 13 15
+       \
+        5
+
+- Silme işlemi için 4 değerine sahip düğümü bulmalıyız. 4, 7 düğümünün sağ alt ağacında yer alır.
+- Sağ alt ağacın sol altında herhangi bir düğüm bulunmadığı için (sol alt ağaç boşsa), 4 değeri olan düğümü sileceğiz.
+- Silme işlemi sonrasında sağ alt ağaç şu hale gelecektir:
+
+        9
+       / \
+      7   12
+     / \  / \
+    6   8 11 14
+   / \    / / \
+  3   5  10 13 15
+
+Bu şekilde, 4 değerine sahip düğüm başarıyla silinmiş olacaktır.
 
 
