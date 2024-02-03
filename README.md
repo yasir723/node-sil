@@ -1,5 +1,5 @@
 # Node Silme
-<span style="color:red">Bu satır kırmızı renkte.</span>
+**<span style="color:red">Bu satır kırmızı renkte.</span>**
 
 Bu C# sınıfı, binary ağaç veri yapısını oluşturmak için kullanılır. `tree` adlı bir sınıf içerir ve `nodeSil` metodunu kullanarak ağaçtan bir düğüm silmeyi sağlar.
 
