@@ -19,6 +19,7 @@ class tree
 - `right`: Düğüme bağlı olan sağ alt düğümü belirtir.
 - `left`: Düğüme bağlı olan sol alt düğümü belirtir.
 
+Bu C# metodunun amacı, verilen bir değeri ağaçtan silmektir. Ağaç içinde gezinerek belirli bir değeri bulur ve bu değeri ağaçtan kaldırır. Metot, ağacın kök düğümü ve silinecek değeri parametre olarak alır.
 ## `nodeSil` Metodu
 ```csharp
 static tree nodeSil(tree root, int value)
@@ -59,3 +60,29 @@ static tree nodeSil(tree root, int value)
     return root;
 }
 ```
+
+## Parametreler
+
+- `node`: Ağaçtaki mevcut düğüm.
+- `value`: Silenecek düğümün değeri.
+
+## Dönüş Değeri
+
+Metot, güncellenmiş ağaç yapısını temsil eden kök düğümü döndürür.
+
+### İşleyiş:
+
+1. Eğer ağacın kökü null ise, ağaç zaten boş demektir, dolayısıyla herhangi bir işlem yapmadan null döner.
+
+2. Eğer aranan değer, kök düğümün değerinden küçükse, sağ ağaç üzerinde devam eder ve `nodeSil` metodu rekürsif olarak çağrılır.
+
+3. Eğer aranan değer, kök düğümün değerinden büyükse, sol ağaç üzerinde devam eder ve yine `nodeSil` metodu rekürsif olarak çağrılır.
+
+4. Eğer aranan değer, kök düğümün değerine eşitse, bu durumda silme işlemi gerçekleştirilir:
+   - Eğer sol alt ağaç boşsa, sağ alt ağacı geri döner.
+   - Eğer sağ alt ağaç boşsa, sol alt ağacı geri döner.
+   - Eğer her iki alt ağaç da doluysa, sağ alt ağacın en küçük düğümü bulunur ve kök düğümün değeri bu düğümle değiştirilir. Ardından, sağ alt ağaç üzerinde tekrar `nodeSil` metodu çağrılır.
+
+5. Her adımda güncellenmiş ağaç yapısı, son olarak kök düğümü geri döndürülür.
+
+
