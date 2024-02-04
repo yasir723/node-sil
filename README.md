@@ -110,6 +110,8 @@ Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
     <img src="https://github.com/yasir723/node-ekle/assets/111686779/a7b5d8d3-7fde-4d4d-818a-3689df53d17f.png" width="600">
 </div>
 
+## $\color{aqua}{Örnek : 11 \space değeri \space olan \space düğümü \space silme \space işlemi \space gerçekleştirme}$
+
 
 
 
