@@ -107,7 +107,7 @@ Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
 
 <div align="center">
     <h3>Binary Ağaç 4 değeri olan düğüm silindikten sonra</h3>
-    <img src="https://github.com/yasir723/node-ekle/assets/111686779/a7b5d8d3-7fde-4d4d-818a-3689df53d17f" width="600">
+    <img src="https://github.com/yasir723/node-ekle/assets/111686779/a7b5d8d3-7fde-4d4d-818a-3689df53d17f.png" width="600">
 </div>
 
 
