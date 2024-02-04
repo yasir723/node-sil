@@ -89,7 +89,7 @@ Metot, güncellenmiş ağaç yapısını temsil eden kök düğümü döndürür
 
 <div align="center">
     <h3>Binary Ağaç</h3>
-    <img src="https://github.com/yasir723/node-ekle/assets/111686779/11d4aac8-b0d4-4762-b028-17d29fada8d1" width="600">
+    <img src="https://github.com/yasir723/node-ekle/assets/111686779/11d4aac8-b0d4-4762-b028-17d29fada8d1.png" width="600">
 </div>
 
 Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
