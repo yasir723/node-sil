@@ -140,9 +140,7 @@ Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
    * Değeri değiştirildikten sonra, artık 13 değeri olan düğüm, silme işlemine tabi tutulur ve ağaçtan çıkarılır.
 
 
-<div align="center">
     <h3>Binary Ağaç 12 değeri olan düğüm silme adımları</h3>
     [![3. durumun adlımları](https://github.com/yasir723/node-ekle/assets/111686779/f0ac87bb-4281-4498-ac71-f5f635d491cc)](https://github.com/yasir723/node-ekle/assets/111686779/87d6112e-fd7f-488f-89f7-2da4066a9771)
-</div>
 
 
