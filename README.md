@@ -89,7 +89,7 @@ Metot, güncellenmiş ağaç yapısını temsil eden kök düğümü döndürür
 
 <div align="center">
     <h3>Binary Ağaç</h3>
-    <img src="https://github.com/yasir723/node-ekle/assets/111686779/11d4aac8-b0d4-4762-b028-17d29fada8d1.png" width="600">
+    <img src="https://github.com/yasir723/node-ekle/assets/111686779/7b94ef8d-22f2-45f7-906c-6a584c7ae6c5.png" width="600">
 </div>
 
 Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
@@ -106,7 +106,7 @@ Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
 
 <div align="center">
     <h3>Binary Ağaç 4 değeri olan düğüm silindikten sonra</h3>
-    <img src="https://github.com/yasir723/node-ekle/assets/111686779/2c6ea286-4403-4fa3-aee4-4ce182a9bec6.png" width="600">
+    <img src="https://github.com/yasir723/node-ekle/assets/111686779/484a305c-f1d8-411b-b271-bc4373f6a644.png" width="600">
 </div>
 
 ## $\color{aqua}{Örnek : 11 \space değeri \space olan \space düğümü \space silme \space işlemi \space gerçekleştirme}$
@@ -122,7 +122,7 @@ Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
 
 <div align="center">
     <h3>Binary Ağaç 11 değeri olan düğüm silindikten sonra</h3>
-    <img src="https://github.com/yasir723/node-ekle/assets/111686779/aab54c90-9340-4249-93b3-f39fedeac3ad.png" width="600">
+    <img src="https://github.com/yasir723/node-ekle/assets/111686779/11541aee-99d9-4449-8ee2-eb1d0eaea3b5.png" width="600">
 </div>
 
 ## $\color{aqua}{Örnek : 12 \space değeri \space olan \space düğümü \space silme \space işlemi \space gerçekleştirme}$
