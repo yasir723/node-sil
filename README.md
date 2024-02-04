@@ -96,22 +96,34 @@ Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
 ## $\color{aqua}{Örnek : 4 \space değeri \space olan \space düğümü \space silme \space işlemi \space gerçekleştirme}$
 
 #### İşleyiş
-- ilk olarak 4 değer 9 ile karışlaştırdı ve daha küçük oladuğu için sola gidilir.
-- 4 değer bulana kadar arama işlemi devam etmiştir.
-- 4 değer düğümü bulduğunda demek `node.value == value` şartını sağlamış ve silme işlemi gerçekleştirilir.
+- ilk olarak 4 değeri 9 ile karışlaştırılır ve daha küçük oladuğu için sola gidilir.
+- 4 değeri bulana kadar arama işlemi devam edilir.
+- 4 değeri düğümü bulduğunda demek `node.value == value` şartını sağlamış ve silme işlemi gerçekleştirilir.
 - silenecek düğümün yerine hangi düğüm geçeceği karar vermek için alt ağaçlarını kontrol etme işlemi yapılır.
-- Silinecek düğümün yerine geçecek düğümü belirlemek için, alt ağaçlar kontrol edilir.
 - sol alt ağaç boş olduğunu ve sağ alt ağaç boş olmadığını tespit edilir (yukarıdaki anlatıldığı işleyişin 4. maddesindeki ilk durumdur).
-- bu durumda sağ alt düğümün silenecek düğümün yerine geçilir.
-- sağ alt düğümün silenecek düğümün yerine geçtiğinde onun altındaki düğümleri koruyarak bağlı kalacak ve böylece ağaç yapısında herhangi bir kesilme olmayacaktır.
+- bu durumda sağ alt düğüm silenecek düğümün yerine geçilir.
+- sağ alt düğüm, silenecek düğümün yerine geçtiğinde onun altındaki düğümleri koruyarak bağlı kalacak ve böylece ağaç yapısında herhangi bir kesilme olmayacaktır.
 
 <div align="center">
     <h3>Binary Ağaç 4 değeri olan düğüm silindikten sonra</h3>
-    <img src="https://github.com/yasir723/node-ekle/assets/111686779/a7b5d8d3-7fde-4d4d-818a-3689df53d17f.png" width="600">
+    <img src="https://github.com/yasir723/node-ekle/assets/111686779/2c6ea286-4403-4fa3-aee4-4ce182a9bec6.png" width="600">
 </div>
 
 ## $\color{aqua}{Örnek : 11 \space değeri \space olan \space düğümü \space silme \space işlemi \space gerçekleştirme}$
 
+#### İşleyiş
+- ilk olarak 11 değeri 9 ile karışlaştırılır ve daha büyük oladuğu için sağ gidilir.
+- 11 değeri bulana kadar arama işlemi devam edilir.
+- 11 değeri düğümü bulduğunda demek `node.value == value` şartını sağlamış ve silme işlemi gerçekleştirilir.
+- silenecek düğümün yerine hangi düğüm geçeceği karar vermek için alt ağaçlarını kontrol etme işlemi yapılır.
+- sağ alt ağaç boş olduğunu ve sol alt ağaç boş olmadığını tespit edilir (yukarıdaki anlatıldığı işleyişin 4. maddesindeki 2. durumdur).
+- bu durumda sol alt düğüm, silenecek düğümün yerine geçilir.
+- sağ alt düğüm, silenecek düğümün yerine geçtiğinde onun altındaki düğümleri koruyarak bağlı kalacak ve böylece ağaç yapısında herhangi bir kesilme olmayacaktır.
+
+<div align="center">
+    <h3>Binary Ağaç 11 değeri olan düğüm silindikten sonra</h3>
+    <img src="https://github.com/yasir723/node-ekle/assets/111686779/aab54c90-9340-4249-93b3-f39fedeac3ad.png" width="600">
+</div>
 
 
 
