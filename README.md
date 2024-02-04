@@ -125,5 +125,21 @@ Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
     <img src="https://github.com/yasir723/node-ekle/assets/111686779/aab54c90-9340-4249-93b3-f39fedeac3ad.png" width="600">
 </div>
 
+## $\color{aqua}{Örnek : 12 \space değeri \space olan \space düğümü \space silme \space işlemi \space gerçekleştirme}$
+
+#### İşleyiş
+- ilk olarak 12 değeri 9 ile karışlaştırılır ve daha büyük oladuğu için sağ gidilir.
+- 12 değeri bulana kadar arama işlemi devam edilir.
+- 12 değeri düğümü bulduğunda demek `node.value == value` şartını sağlamış ve silme işlemi gerçekleştirilir.
+- silenecek düğümün yerine hangi düğüm geçeceği karar vermek için alt ağaçlarını kontrol etme işlemi yapılır.
+- sağ alt ağaç ve sol alt ağaç boş olmadığını tespit edilir `yukarıdaki anlatıldığı işleyişin 4. maddesindeki 3. durumdur`.
+- Bu durumda, sağ alt ağacın en küçük düğümü bulunur ve kök düğümün değeri bu düğümle değiştirilir. İşlemin ayrıntıları şu adımlarla gerçekleşir:
+   1. Silinecek düğüm bulunduktan sonra, bir sağ düğüme gidilir.
+   2. Ardından, en küçük düğüme ulaşana kadar sola gidilir.
+   3. En küçük düğüme ulaşıldığında, bu düğümün değeri, silinecek olan düğümün yerine geçecek şekilde değiştirilir. Örneğin, 13 değeri olan düğüm, 12 yerine geçecek şekilde atanır.
+   4. Değeri değiştirildikten sonra, artık 13 değeri olan düğüm, silme işlemine tabi tutulur ve ağaçtan çıkarılır.
+
+
+
 
 
