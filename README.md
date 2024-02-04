@@ -100,7 +100,7 @@ Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
 - 4 değeri bulana kadar arama işlemi devam edilir.
 - 4 değeri düğümü bulduğunda demek `node.value == value` şartını sağlamış ve silme işlemi gerçekleştirilir.
 - silenecek düğümün yerine hangi düğüm geçeceği karar vermek için alt ağaçlarını kontrol etme işlemi yapılır.
-- sol alt ağaç boş olduğunu ve sağ alt ağaç boş olmadığını tespit edilir (yukarıdaki anlatıldığı işleyişin 4. maddesindeki ilk durumdur).
+- sol alt ağaç boş olduğunu ve sağ alt ağaç boş olmadığını tespit edilir `yukarıdaki anlatıldığı işleyişin 4. maddesindeki ilk durumdur`.
 - bu durumda sağ alt düğüm silenecek düğümün yerine geçilir.
 - sağ alt düğüm, silenecek düğümün yerine geçtiğinde onun altındaki düğümleri koruyarak bağlı kalacak ve böylece ağaç yapısında herhangi bir kesilme olmayacaktır.
 
@@ -116,7 +116,7 @@ Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
 - 11 değeri bulana kadar arama işlemi devam edilir.
 - 11 değeri düğümü bulduğunda demek `node.value == value` şartını sağlamış ve silme işlemi gerçekleştirilir.
 - silenecek düğümün yerine hangi düğüm geçeceği karar vermek için alt ağaçlarını kontrol etme işlemi yapılır.
-- sağ alt ağaç boş olduğunu ve sol alt ağaç boş olmadığını tespit edilir (yukarıdaki anlatıldığı işleyişin 4. maddesindeki 2. durumdur).
+- sağ alt ağaç boş olduğunu ve sol alt ağaç boş olmadığını tespit edilir `yukarıdaki anlatıldığı işleyişin 4. maddesindeki 2. durumdur`.
 - bu durumda sol alt düğüm, silenecek düğümün yerine geçilir.
 - sağ alt düğüm, silenecek düğümün yerine geçtiğinde onun altındaki düğümleri koruyarak bağlı kalacak ve böylece ağaç yapısında herhangi bir kesilme olmayacaktır.
 
