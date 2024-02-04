@@ -134,10 +134,10 @@ Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
 - silenecek düğümün yerine hangi düğüm geçeceği karar vermek için alt ağaçlarını kontrol etme işlemi yapılır.
 - sağ alt ağaç ve sol alt ağaç boş olmadığını tespit edilir `yukarıdaki anlatıldığı işleyişin 4. maddesindeki 3. durumdur`.
 - Bu durumda, sağ alt ağacın en küçük düğümü bulunur ve kök düğümün değeri bu düğümle değiştirilir. İşlemin ayrıntıları şu adımlarla gerçekleşir:
-   * Silinecek düğüm bulunduktan sonra, bir sağ düğüme gidilir.
-   * Ardından, en küçük düğüme ulaşana kadar sola gidilir.
-   * En küçük düğüme ulaşıldığında, bu düğümün değeri, silinecek olan düğümün yerine geçecek şekilde değiştirilir. Örneğin, 13 değeri olan düğüm, 12 yerine geçecek şekilde atanır.
-   * Değeri değiştirildikten sonra, artık 13 değeri olan düğüm, silme işlemine tabi tutulur ve ağaçtan çıkarılır.
+   ** Silinecek düğüm bulunduktan sonra, bir sağ düğüme gidilir.
+   ** Ardından, en küçük düğüme ulaşana kadar sola gidilir.
+   ** En küçük düğüme ulaşıldığında, bu düğümün değeri, silinecek olan düğümün yerine geçecek şekilde değiştirilir. Örneğin, 13 değeri olan düğüm, 12 yerine geçecek şekilde atanır.
+   ** Değeri değiştirildikten sonra, artık 13 değeri olan düğüm, silme işlemine tabi tutulur ve ağaçtan çıkarılır.
 
 
 
