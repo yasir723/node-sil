@@ -142,6 +142,7 @@ Yukarıdaki binary ağaçtan düğümler silme işlemi yapacağız
 <div align="center">
     <h3>Binary Ağaç 12 değeri olan düğüm silme adımları</h3>
 </div>
+
 [![3. durumun adlımları](https://github.com/yasir723/node-ekle/assets/111686779/f0ac87bb-4281-4498-ac71-f5f635d491cc)](https://github.com/yasir723/node-ekle/assets/111686779/c83e59ba-f7a1-405f-ae03-dd16f93a748c
 
 
